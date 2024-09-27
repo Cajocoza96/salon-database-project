@@ -70,3 +70,7 @@ chmod +x salon.sh
 ./salon.sh
 clear
 ./salon.sh
+clear
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git init
+git add .
